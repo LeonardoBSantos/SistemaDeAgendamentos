@@ -1,0 +1,25 @@
+<h1>Lista de Agendamentos</h1>
+
+<form action="/">
+        <button type="submit">Adicionar</button><br><br>
+</form>
+<table class="tabela">
+    <tr>
+        <th class="short">Id</th>
+        <th class="middle">local</th>
+        <th class="long">Data Inicio</th>
+        <th class="long">Data fim</th>
+    </tr>
+</table>
+
+{{#each agendamento}}
+    <table class="tabela">
+        <tr>
+            <td class="short">{{id}} </td>
+            <td class="middle">{{local}} </td>
+            <td class="long">{{datainicio}} </td>
+            <td class="long">{{datafim}} </td>
+        </tr>
+    </table>
+    
+{{/each}}

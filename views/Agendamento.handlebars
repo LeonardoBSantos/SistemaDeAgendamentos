@@ -1,0 +1,28 @@
+<ul>
+  <li><a class="active" href="# home">Cadastro de Agendamentos</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <h2>Bem vindo ao sistema de agendamentos online</h2>
+  <h3>Instruções para o cadastro de um novo agendamento</h3>
+  <p>Digite um Id acima de 205, informe um local para o agendamento, digite a data inicial e final e clique em adicionar. Voce será redirecionado para a lista de agendamentos.</p>
+  
+  <form action="/addregistro" method="POST">
+      <label>id</label><br>
+      <input type="number" name="id"><br>
+      <label>local</label><br>
+      <input type="text" name="local"><br>
+      <label>datainicio</label><br>
+      <input type="text" name="datainicio"><br>
+      <label>datafim</label><br>
+      <input type="text" name="datafim"><br><br>
+      <button type="submit">Adicionar</button><br>
+  </form>
+  <form action="/lista_agendamentos">
+      <br>
+      <button type="submit">Consultar</button>
+  </form>
+
+</div>
+<div class="teste">
+</div>

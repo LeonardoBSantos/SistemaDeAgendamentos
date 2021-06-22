@@ -1,0 +1,40 @@
+.tabela{ 
+    border-collapse: collapse; 
+    border-bottom: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    text-align: center;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+
+.tabela tr:hover {background-color: #ddd;}
+
+th{
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 220px;
+    background-color: darkslategray;
+    padding: 8px;
+    color: white;
+
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.short{
+    width: 50px;
+}
+
+.middle{
+    width: 170px;
+}
+
+.long{
+    width: 220px;
+}
